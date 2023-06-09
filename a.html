@@ -1,0 +1,154 @@
+underconstruction :(
+<!DOCTYPE html>
+<html>
+<head>
+<title>Clicking Sound When Click Button</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, 
+initial-scale=1" />
+</head>
+<style type="text/css">
+  .note-buttons{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 70px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    vertical-align: middle;
+    transition: opacity 0.15s;  }
+
+  .note-buttons:hover {
+    opacity: 0.8;
+  }
+
+  .note-buttons:active {
+    opacity: 0.5;
+
+  }
+  .audioBT{
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #428bca;
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+  display: inline;
+  font-weight: 400;
+  height: auto;
+  line-height: 23.94px;
+  width: auto;
+  border: none;
+  border-radius: 5px;
+  }
+  .audioBT:hover{
+    background-image: linear-gradient(rgb(0 0 0/20%) 0 0);
+  }
+  body{
+    font-family: system-ui;
+    background: black;
+    color: white;
+    background-image: url("https://png.pngtree.com/png-vector/20221225/ourmid/pngtree-seamless-pattern-of-music-notes-png-image_6536657.png");
+  }
+</style> 
+<center>
+  <h1 class="title">Perfect Pitch Quiz</h1>
+
+  <p>
+    <span id="correct-reps">0</span> 
+     of  
+    <span id="total-reps">0</span> 
+     correct 
+  </p>
+  <p><button class="audioBT"> Hear First Question </button></p>
+
+</head> 
+<body>
+<button class="note-buttons" onclick="audioF.play();">
+  F
+</button>
+<button class="note-buttons" onclick="audioC.play();">
+  C
+</button>
+<button class="note-buttons" onclick="audioD.play();">
+  D
+</button>
+<button class="note-buttons" onclick="audioG.play();"> 
+  G
+</button>
+
+<button class="note-buttons" onclick="audioB.play();">
+  B
+</button>
+<button class="note-buttons" onclick="audioA.play();">
+  A
+</button>
+</center>
+<script type="text/javascript">
+  const audio1 = new Audio(); 
+  audio1.src = "./A_Note.mp3";
+  
+  const audioF = new Audio(); 
+  audioF.src = "./F Note.mp3";
+
+  const audioC = new Audio(); 
+  audioC.src = "./C Note.mp3";
+  
+  const audioD = new Audio(); 
+  audioD.src = "./D Note.mp3";
+
+  const audioG = new Audio(); 
+  audioG.src = "./G Note.mp3";
+  
+  const audioB = new Audio(); 
+  audioB.src = "./B Note.mp3";
+
+  const audioA = new Audio(); 
+  audioA.src = "./A Note.mp3";
+</script>
+</body>
+</html> 
+<html>
+  <body>
+<h1 style= "text-align: center;">Do you have Perfect Pitch?</h1>
+<h2 >What is perfect pitch?</h2>
+
+<em>
+<p>
+  Perfect pitch, also known as absolute pitch, is a rare and remarkable auditory ability possessed by some individuals. It is the capacity to identify or produce musical notes without any reference or comparison to other sounds. People with perfect pitch can effortlessly recognize and name individual pitches (such as C, D, E, etc.) and accurately reproduce them when requested.
+ chords, and even non-musical sounds like car horns or phone ring tones.
+</p>
+<p>
+The possession of perfect pitch brings several advantages. Musicians with perfect pitch can quickly learn and play music by ear, as they can accurately reproduce the pitches they hear. It enhances their ability to transcribe and sight-read music, as they can easily identify the written notes. Furthermore, perfect pitch can aid in the recognition of key signatures and modulations, facilitating a deeper understanding and interpretation of music.
+</p>
+</em>
+<h2 >Famous artist with perfect pitch</h2>
+
+<em>
+<img src="https://cdn.britannica.com/35/74835-050-F0B71060/canvas-oil-Wolfgang-Amadeus-Mozart-Barbara-Krafft-1819.jpg"
+ALIGN= left
+HSPACE=20
+VSPACE=10
+width=100
+height=130
+BR CLEAR=left />Wolfgang Amadeus Mozart, one of the greatest composers in history, was renowned for his perfect pitch. He possessed an extraordinary ability to recognize and reproduce musical notes effortlessly, contributing to his remarkable compositions.
+<p>
+Ludwig van Beethoven, another iconic composer, is believed to have had perfect pitch as well. His ability to hear and remember pitches without any reference was instrumental in his creation of groundbreaking and emotionally powerful music.
+</p>
+<P>
+
+</P>
+Stevie Wonder, the legendary singer-songwriter, is known for his exceptional vocal range and musical talent. He possesses perfect pitch, which has undoubtedly played a significant role in his ability to create soulful and memorable melodies.
+<P>
+
+</P>
+Mariah Carey, the renowned pop vocalist, has also been recognized for her perfect pitch. Her exceptional ability to hit high notes and execute complex vocal runs with precision and accuracy can be attributed to this rare talent.
+
+These artists, among others, demonstrate how perfect pitch can elevate musicians to new heights of creativity, expression, and technical proficiency, leaving a lasting impact on the world of music.</em>
+</html>
